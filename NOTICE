@@ -1,0 +1,21 @@
+RBM — Russian Translation
+=========================
+
+This is a fan-made Russian localization for the Mount & Blade II: Bannerlord mod
+Realistic Battle Mod (RBM).
+
+Attribution
+-----------
+- Realistic Battle Mod (RBM) — original mod by its respective authors. This
+  repository contains only Russian-language string files for RBM and no original
+  mod assets or code.
+- The translation was written from scratch for this project.
+
+Scope of the MIT license (see LICENSE)
+--------------------------------------
+The MIT license applies to the original contributions in this repository: the
+build/tagging tooling under `tools/` and the translation strings.
+
+The translated item and UI names are derivative works of RBM and are shared for the
+community's benefit. If you are an original author and have concerns about
+attribution or distribution, please open an issue.

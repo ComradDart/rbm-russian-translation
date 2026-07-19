@@ -1,0 +1,12 @@
+# build artifacts
+*.zip
+
+# python
+__pycache__/
+*.pyc
+
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

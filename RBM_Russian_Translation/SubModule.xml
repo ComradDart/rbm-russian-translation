@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="RBM - Russian Translation"/>
+	<Id value="RBM_Russian_Translation"/>
+	<Version value="v1.0.0"/>
+	<DefaultModule value="false"/>
+	<ModuleCategory value="Singleplayer"/>
+	<ModuleType value="Community"/>
+	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="RBM" Optional="true"/>
+	</DependedModules>
+	<DependedModuleMetadatas>
+		<DependedModuleMetadata id="Native" order="LoadBeforeThis"/>
+		<DependedModuleMetadata id="RBM" order="LoadBeforeThis" optional="true"/>
+	</DependedModuleMetadatas>
+	<SubModules/>
+	<Xmls/>
+</Module>

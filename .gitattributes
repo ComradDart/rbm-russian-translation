@@ -1,0 +1,2 @@
+# Preserve exact bytes of game XML (UTF-8 BOM + CRLF) — do not normalize line endings
+*.xml -text

@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Русский" />
+	</tags>
+	<strings>
+		<!-- AI Module Strings -->
+		<string id="RBM_AI_001" text="АТК ЛУЧ:" />
+		<string id="RBM_AI_002" text="АТК КЛ :" />
+		<string id="RBM_AI_003" text="АТК КАВ:" />
+		<string id="RBM_AI_004" text="АТК ПЕХ:" />
+		<string id="RBM_AI_005" text="ЗАЩ ЛУЧ:" />
+		<string id="RBM_AI_006" text="ЗАЩ КЛ :" />
+		<string id="RBM_AI_007" text="ЗАЩ КАВ:" />
+		<string id="RBM_AI_008" text="ЗАЩ ПЕХ:" />
+		<string id="RBM_AI_009" text="Пробой стойки: стойка исчерпана, {DMG} урона прошло насквозь" />
+		<string id="RBM_AI_010" text="Пробой стойки врага: стойка исчерпана, {DMG} урона прошло насквозь" />
+		<string id="RBM_AI_011" text="Пробой стойки: стойка исчерпана, идеальное парирование, {DMG} урона прошло насквозь" />
+		<string id="RBM_AI_012" text="Пробой стойки врага: стойка исчерпана, идеальное парирование, {DMG} урона прошло насквозь" />
+		<string id="RBM_AI_013" text="Пробой стойки: стойка исчерпана, идеальное парирование" />
+		<string id="RBM_AI_014" text="Пробой стойки: стойка исчерпана, неверный блок стороны" />
+		<string id="RBM_AI_015" text="Пробой стойки: стойка исчерпана, верный блок стороны" />
+		<string id="RBM_AI_016" text="Пробой стойки: стойка исчерпана, идеальное парирование, верный блок стороны" />
+		<string id="RBM_AI_017" text="Пробой стойки: стойка исчерпана, идеальное парирование, верный блок стороны" />
+		<string id="RBM_AI_018" text="Пробой стойки: стойка исчерпана, контрблок" />
+		<string id="RBM_AI_019" text="Пробой стойки: стойка исчерпана, контрблок, {DMG} урона прошло насквозь" />
+		<string id="RBM_AI_020" text="Контрблок, {DMG} урона прошло насквозь" />
+		<string id="RBM_AI_021" text="Вы получили {DMG1} тупой травмы, {DMG2} урона от пробития брони" />
+		<string id="RBM_AI_022" text="Вы нанесли {DMG1} тупой травмы, {DMG2} урона от пробития брони" />
+		<string id="RBM_AI_023" text="Стойка" />
+		<string id="RBM_AI_024" text="Выносливость" />
+		<!-- Combat Module Strings -->
+		<string id="RBM_COM_001" text="Попадание: {TYPE}" />
+		<string id="RBM_COM_002" text="Попадание: {TYPE}" />
+		<string id="RBM_COM_003" text="Рукоять" />
+		<string id="RBM_COM_004" text="Навершие" />
+		<string id="RBM_COM_005" text="Попадание в лицо!" />
+		<string id="RBM_COM_006" text="Попадание в лицо!" />
+		<string id="RBM_COM_007" text="Попадание под плечо" />
+		<string id="RBM_COM_008" text="Попадание под плечо" />
+		<string id="RBM_COM_009" text="Идеальный вес боеприпаса/урон, граммы: " />
+		<string id="RBM_COM_010" text="Начальная скорость снаряда, м/с: " />
+		<string id="RBM_COM_011" text="Сила натяжения с модификатором: " />
+		<string id="RBM_COM_012" text="Урон снаряда (колющий)" />
+		<string id="RBM_COM_013" text="Урон снаряда (рубящий)" />
+		<string id="RBM_COM_014" text="Соответствующий навык: " />
+		<string id="RBM_COM_015" text="Урон снаряда" />
+		<string id="RBM_COM_016" text="Коэффициент урона размахом:" />
+		<string id="RBM_COM_017" text="Коэффициент урона уколом:" />
+		<string id="RBM_COM_018" text="Оптимальная зона размаха, %: " />
+		<string id="RBM_COM_019" text="Статистика RBM (для разработчиков)" />
+		<string id="RBM_COM_020" text="Скорость размаха, м/с: " />
+		<string id="RBM_COM_021" text="Скорость укола, м/с: " />
+		<string id="RBM_COM_022" text="Броня щита: " />
+		<string id="RBM_COM_023" text="Броня лица" />
+		<string id="RBM_COM_024" text="Броня шеи" />
+		<string id="RBM_COM_025" text="Броня плеч" />
+		<string id="RBM_COM_026" text="Броня живота" />
+		<string id="RBM_COM_027" text="Броня нижней части плеч" />
+		<string id="RBM_COM_028" text="A — Броня" />
+		<string id="RBM_COM_029" text="D — Нанесённый урон" />
+		<string id="RBM_COM_030" text="P — Пробивной урон" />
+		<string id="RBM_COM_031" text="B — Тупая травма" />
+		<string id="RBM_COM_032" text="A" />
+		<string id="RBM_COM_033" text="D" />
+		<string id="RBM_COM_034" text="P" />
+		<string id="RBM_COM_035" text="B" />
+		<string id="RBM_COM_036" text="Статистика RBM" />
+		<string id="RBM_COM_037" text="Наведите курсор" />
+		<!-- Config Module Strings -->
+		<string id="RBM_CON_001" text="Отключено" />
+		<string id="RBM_CON_002" text="Включено (рекомендуется)" />
+		<string id="RBM_CON_003" text="Переработка войск" />
+		<string id="RBM_CON_004" text="Ванильный" />
+		<string id="RBM_CON_005" text="Реалистичный" />
+		<string id="RBM_CON_006" text="Полуреалистичный" />
+		<string id="RBM_CON_007" text="Скорость перезарядки дальнобойного оружия" />
+		<string id="RBM_CON_008" text="Пассивные наплечные щиты" />
+		<string id="RBM_CON_009" text="Улучшенное отображение стрел" />
+		<string id="RBM_CON_010" text="Интерфейс состояния брони" />
+		<string id="RBM_CON_011" text="Реалистичная траектория стрел" />
+		<string id="RBM_CON_012" text="Система стойки" />
+		<string id="RBM_CON_013" text="Множитель стойки игрока" />
+		<string id="RBM_CON_014" text="Интерфейс стойки" />
+		<string id="RBM_CON_015" text="Ванильный ИИ: блок/парирование/атака" />
+		<string id="RBM_CON_031" text="Битва за замок (последний бой)" />
+		<string id="RBM_CON_016" text="Бой RBM" />
+		<string id="RBM_CON_017" text="Состояние модуля" />
+		<string id="RBM_CON_018" text="ИИ RBM" />
+		<string id="RBM_CON_019" text="Турниры RBM" />
+		<string id="RBM_CON_020" text="Настройки RBM" />
+		<string id="RBM_CON_021" text="Предпочтение колющего оружия для ИИ (по умолчанию 0.05)" />
+		<!-- Tournament Module Strings -->
+		<string id="RBM_TOU_001" text="Основной турнир" />
+		<string id="RBM_TOU_002" text="Турнир низшего уровня: уровень {TIER}" />
+		<string id="RBM_TOU_003" text="Поздравляем! Вы успешно получили модификатор предмета {Name}, выпало: {Roll}, нужно: {Need}" />
+		<string id="RBM_TOU_004" text="Вам не удалось получить модификатор предмета {Name}, выпало: {Roll}, нужно: {Need}" />
+		<!-- module_strings.xml Strings -->
+		<string id="RBM_STR_001" text="{?IS_RIGHT}Правый {TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} применяет тактику «бей и беги».{?}{\?}{?IS_LEFT}Левый {TROOP_NAMES_BEGIN}{?IS_PLURAL} и {?}{\?}{TROOP_NAMES_END} применяет тактику «бей и беги».{?}{\?}" />
+		<string id="RBM_STR_002" text="Пехота заходит во фланг." />
+		<string id="RBM_STR_003" text="Лучники ведут перестрелку с флангов." />
+		<string id="RBM_STR_004" text="Кавалерия строится клином перед пехотой." />
+		<string id="RBM_STR_005" text="Перестрелка" />
+		<string id="RBM_STR_006" text="Применить тактику «бей и беги» против врага." />
+		<string id="RBM_STR_007" text="Атаковать врага" />
+		<string id="RBM_STR_008" text="Перестрелка с {SIDE_STRING} фланга" />
+		<string id="RBM_STR_009" text="Построиться клином перед пехотой" />
+		<string id="RBM_STR_010" text="Наш план — атаковать всеми силами и обойти с флангов лучниками." />
+		<string id="RBM_STR_011" text="Наш план — разделить пехоту и сокрушить их со всех сторон." />
+		<string id="RBM_STR_012" text="Наш план — выманить их застрельщиками, затем сокрушить всеми силами." />
+		<string id="RBM_STR_013" text="Наш план — построить оборонительную линию с лучниками на флангах." />
+		<string id="RBM_STR_014" text="Наш план — ударить в лоб кавалерией, затем сокрушить расстроенные ряды." />
+		<!-- RBMCombat_arrow_visuals.xml Strings -->
+		<string id="RBM_ARR_001" text="Дальнобойные {.MI}стрелы{.nnp} 30 г" />
+		<string id="RBM_ARR_002" text="Зазубренные {.MI}стрелы{.nnp} 40 г" />
+		<string id="RBM_ARR_003" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 40 г" />
+		<string id="RBM_ARR_004" text="Зазубренные {.MI}болты{.nnp} 50 г" />
+		<string id="RBM_ARR_005" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 50 г" />
+		<string id="RBM_ARR_006" text="Зазубренные {.MI}стрелы{.nnp} 50 г" />
+		<string id="RBM_ARR_007" text="Игольчатые бронебойные {.MI}болты{.nnp} 60 г" />
+		<string id="RBM_ARR_008" text="Зазубренные {.MI}стрелы{.nnp} 60 г" />
+		<string id="RBM_ARR_009" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 60 г" />
+		<string id="RBM_ARR_010" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 70 г" />
+		<string id="RBM_ARR_011" text="Игольчатые бронебойные {.MI}болты{.nnp} 75 г" />
+		<string id="RBM_ARR_012" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 80 г" />
+		<string id="RBM_ARR_013" text="Игольчатые бронебойные {.MI}болты{.nnp} 90 г" />
+		<string id="RBM_ARR_014" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 90 г" />
+		<string id="RBM_ARR_015" text="Игольчатые бронебойные {.MI}стрелы{.nnp} 100 г" />
+		<string id="RBM_ARR_016" text="Тяжёлые игольчатые бронебойные {.MI}стрелы{.nnp} 110 г" />
+		<string id="RBM_ARR_017" text="Тяжёлые игольчатые бронебойные {.MI}болты{.nnp} 120 г" />
+		<string id="RBM_ARR_018" text="Очень тяжёлые игольчатые бронебойные {.MI}стрелы{.nnp} 125 г" />
+		<string id="RBM_ARR_019" text="Очень тяжёлые игольчатые бронебойные {.MI}болты{.nnp} 150 г" />
+		<string id="RBM_ARR_020" text="Смазанные дальнобойные {.MI}стрелы{.nnp} 30 г" />
+		<string id="RBM_ARR_021" text="Смазанные зазубренные {.MI}стрелы{.nnp} 40 г" />
+		<string id="RBM_ARR_022" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 40 г" />
+		<string id="RBM_ARR_023" text="Смазанные зазубренные {.MI}болты{.nnp} 50 г" />
+		<string id="RBM_ARR_024" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 50 г" />
+		<string id="RBM_ARR_025" text="Смазанные зазубренные {.MI}стрелы{.nnp} 50 г" />
+		<string id="RBM_ARR_026" text="Смазанные игольчатые бронебойные {.MI}болты{.nnp} 60 г" />
+		<string id="RBM_ARR_027" text="Смазанные зазубренные {.MI}стрелы{.nnp} 60 г" />
+		<string id="RBM_ARR_028" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 60 г" />
+		<string id="RBM_ARR_029" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 70 г" />
+		<string id="RBM_ARR_030" text="Смазанные игольчатые бронебойные {.MI}болты{.nnp} 75 г" />
+		<string id="RBM_ARR_031" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 80 г" />
+		<string id="RBM_ARR_032" text="Смазанные игольчатые бронебойные {.MI}болты{.nnp} 90 г" />
+		<string id="RBM_ARR_033" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 90 г" />
+		<string id="RBM_ARR_034" text="Смазанные игольчатые бронебойные {.MI}стрелы{.nnp} 100 г" />
+		<string id="RBM_ARR_035" text="Смазанные тяжёлые игольчатые бронебойные {.MI}стрелы{.nnp} 110 г" />
+		<string id="RBM_ARR_036" text="Смазанные тяжёлые игольчатые бронебойные {.MI}болты{.nnp} 120 г" />
+		<string id="RBM_ARR_037" text="Смазанные очень тяжёлые игольчатые бронебойные {.MI}стрелы{.nnp} 125 г" />
+		<string id="RBM_ARR_038" text="Смазанные очень тяжёлые игольчатые бронебойные {.MI}болты{.nnp} 150 г" />
+		<string id="RBM_ARR_039" text="Закалённые зазубренные {.MI}стрелы{.nnp} из дамасской стали 80 г" />
+		<string id="RBM_ARR_040" text="Закалённые зазубренные {.MI}стрелы{.nnp} из дамасской стали 90 г" />
+		<string id="RBM_ARR_041" text="Закалённые зазубренные {.MI}стрелы{.nnp} из дамасской стали 100 г" />
+		<string id="RBM_ARR_042" text="Закалённые зазубренные {.MI}стрелы{.nnp} из дамасской стали 110 г" />
+		<string id="RBM_ARR_043" text="Закалённые зазубренные {.MI}стрелы{.nnp} из дамасской стали 125 г" />
+		<string id="RBM_ARR_044" text="Закалённые стальные зазубренные {.MI}болты{.nnp} 75 г" />
+		<string id="RBM_ARR_045" text="Закалённые стальные зазубренные {.MI}болты{.nnp} 90 г" />
+		<string id="RBM_ARR_046" text="Закалённые стальные зазубренные {.MI}болты{.nnp} 120 г" />
+		<string id="RBM_ARR_047" text="Закалённые стальные зазубренные {.MI}болты{.nnp} 150 г" />
+		<string id="RBM_ARR_048" text="Смазанные закалённые стальные зазубренные {.MI}стрелы{.nnp} 80 г" />
+		<string id="RBM_ARR_049" text="Смазанные закалённые стальные зазубренные {.MI}стрелы{.nnp} 90 г" />
+		<string id="RBM_ARR_050" text="Смазанные закалённые стальные зазубренные {.MI}стрелы{.nnp} 100 г" />
+		<string id="RBM_ARR_051" text="Смазанные закалённые стальные зазубренные {.MI}стрелы{.nnp} 110 г" />
+		<string id="RBM_ARR_052" text="Смазанные закалённые стальные зазубренные {.MI}стрелы{.nnp} 125 г" />
+		<string id="RBM_ARR_053" text="Смазанные закалённые стальные зазубренные {.MI}болты{.nnp} 75 г" />
+		<string id="RBM_ARR_054" text="Смазанные закалённые стальные зазубренные {.MI}болты{.nnp} 90 г" />
+		<string id="RBM_ARR_055" text="Смазанные закалённые стальные зазубренные {.MI}болты{.nnp} 120 г" />
+		<string id="RBM_ARR_056" text="Смазанные закалённые стальные зазубренные {.MI}болты{.nnp} 150 г" />
+		<string id="RBM_ARR_057" text="Кальрадийские зажигательные {.MI}стрелы{.nnp}" />
+		<string id="RBM_ARR_058" text="Кальрадийские зажигательные {.MI}болты{.nnp}" />
+		<!-- RBMCombat_body_armors.xml Strings -->
+		<string id="RBM_ARM_001" text="Двойной кольчужный {.MI}хауберк{.nn}" />
+		<string id="RBM_ARM_002" text="Лёгкий {.MI}ламелляр{.nn} поверх кольчуги" />
+		<string id="RBM_ARM_003" text="Лёгкий {.MI}ламелляр{.nn} поверх кольчуги" />
+		<string id="RBM_ARM_004" text="Чешуйчатый {.MI}доспех{.nn} поверх кольчуги" />
+		<string id="RBM_ARM_005" text="Ламеллярный {.MI}доспех{.nn} поверх кольчуги" />
+		<string id="RBM_ARM_006" text="Тяжёлый {.MI}ламелляр{.nn} поверх кольчуги с чешуйчатой юбкой" />
+		<string id="RBM_ARM_007" text="Украшенный двойной {.MI}хауберк{.nn}" />
+		<string id="RBM_ARM_008" text="Тяжёлый чешуйчатый {.MI}доспех{.nn} поверх двойной кольчуги" />
+		<string id="RBM_ARM_009" text="Короткий ламеллярный {.MI}жилет{.nn}" />
+		<!-- RBMCombat_couched_lances.xml Strings -->
+		<string id="RBM_CLA_001" text="Лёгкий {.MI}наконечник{.nn} копья" />
+		<string id="RBM_CLA_002" text="Турнирный лёгкий {.MI}наконечник{.nn} копья" />
+		<string id="RBM_CLA_003" text="Средний {.MI}наконечник{.nn} копья" />
+		<string id="RBM_CLA_004" text="Турнирный средний {.MI}наконечник{.nn} копья" />
+		<string id="RBM_CLA_005" text="Тяжёлый {.MI}наконечник{.nn} копья" />
+		<string id="RBM_CLA_006" text="Листовидный {.MI}наконечник{.nn} пики из дамасской стали" />
+		<!-- RBMCombat_gladius.xml Strings -->
+		<string id="RBM_GLA_001" text="Метательные {.MI}лабрисы{.nnp}" />
+		<string id="RBM_GLA_002" text="Огромные метательные {.MI}топоры{.nnp}" />
+		<string id="RBM_GLA_003" text="Большие метательные {.MI}топоры{.nnp}" />
+		<string id="RBM_GLA_004" text="Средние метательные {.MI}топоры{.nnp}" />
+		<string id="RBM_GLA_005" text="Малые метательные {.MI}топоры{.nnp}" />
+		<!-- RBMCombat_head_armors.xml Strings -->
+		<string id="RBM_HEA_001" text="Дворянский гвардейский {.MI}шлем{.nn}" />
+		<!-- RBMCombat_horse_armors.xml Strings -->
+		<string id="RBM_HAR_001" text="Ламеллярный конский {.MI}доспех{.nn}" />
+		<!-- RBMCombat_item_modifiers.xml Strings -->
+		<string id="RBM_MOD_001" text="Повреждённый" />
+		<string id="RBM_MOD_002" text="Сильно повреждённый" />
+		<string id="RBM_MOD_003" text="Разрушенный" />
+		<string id="RBM_MOD_004" text="Поцарапанный" />
+		<string id="RBM_MOD_005" text="Поцарапанный расшатанный" />
+		<string id="RBM_MOD_006" text="Поцарапанный ржавый" />
+		<string id="RBM_MOD_007" text="Слегка повреждённый" />
+		<string id="RBM_MOD_008" text="Очень сильно повреждённый" />
+		<!-- RBMCombat_lances.xml Strings -->
+		<string id="RBM_LAN_001" text="Сосновый метательный {.MI}дротик{.nn}" />
+		<string id="RBM_LAN_002" text="Сосновая {.FI}сулица{.nn}" />
+		<string id="RBM_LAN_003" text="Сосновое метательное {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_004" text="Ясеневое метательное {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_005" text="Ясеневая {.FI}сулица{.nn}" />
+		<string id="RBM_LAN_006" text="Дубовое метательное {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_007" text="Дубовый {.MI}ангон{.nn}" />
+		<string id="RBM_LAN_008" text="Метательный {.MI}дротик{.nn} из красного дерева" />
+		<string id="RBM_LAN_009" text="{.FI}Сулица{.nn} из красного дерева" />
+		<string id="RBM_LAN_010" text="Метательное {.NI}копьё{.nn} из красного дерева" />
+		<string id="RBM_LAN_011" text="Вландийское лёгкое {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_012" text="Имперское лёгкое {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_013" text="Хузаитское лёгкое {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_014" text="Вландийское {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_015" text="Имперское {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_016" text="Восточное благородное {.NI}копьё{.nn}" />
+		<string id="RBM_LAN_017" text="Восточная {.FI}глефа{.nn}" />
+		<string id="RBM_LAN_018" text="Западная {.FI}пика{.nn}" />
+		<string id="RBM_LAN_019" text="Лёгкий {.MI}менавлион{.nn}" />
+		<!-- RBMCombat_ranged.xml Strings -->
+		<string id="RBM_RAN_001" text="500-фунтовый тяжёлый поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_002" text="450-фунтовый тяжёлый поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_003" text="410-фунтовый тяжёлый поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_004" text="370-фунтовый тяжёлый поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_005" text="330-фунтовый натяжной поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_006" text="290-фунтовый натяжной поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_007" text="250-фунтовый натяжной поясной {.MI}арбалет{.nn}" />
+		<string id="RBM_RAN_008" text="200-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_009" text="200-фунтовый турнирный длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_010" text="180-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_011" text="170-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_012" text="166-фунтовый композитный боевой {.MI}лук{.nn}" />
+		<string id="RBM_RAN_013" text="166-фунтовый турнирный композитный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_014" text="160-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_015" text="150-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_016" text="140-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_017" text="135-фунтовый композитный боевой {.MI}лук{.nn}" />
+		<string id="RBM_RAN_018" text="130-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_019" text="125-фунтовый композитный боевой {.MI}лук{.nn}" />
+		<string id="RBM_RAN_020" text="120-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_021" text="120-фунтовый композитный боевой {.MI}лук{.nn}" />
+		<string id="RBM_RAN_022" text="110-фунтовый композитный боевой {.MI}лук{.nn}" />
+		<string id="RBM_RAN_023" text="100-фунтовый композитный боевой {.MI}лук{.nn}" />
+		<string id="RBM_RAN_024" text="100-фунтовый боевой длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_025" text="90-фунтовый длинный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_026" text="90-фунтовый композитный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_027" text="70-фунтовый композитный {.MI}лук{.nn}" />
+		<string id="RBM_RAN_028" text="60-фунтовый композитный {.MI}лук{.nn}" />
+		<!-- RBMCombat_shields.xml Strings -->
+		<string id="RBM_SHI_001" text="Усиленная {.FI}тарча{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_002" text="Круглый степной {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_003" text="Восточный кавалерийский {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_004" text="Племенной степной {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_005" text="Украшенный восточный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_006" text="Малый кавалерийский треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_007" text="Малый плоский треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_008" text="Малый треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_009" text="Потрёпанный каплевидный {.MI}щит{.nn} всадника с наплечным ремнём" />
+		<string id="RBM_SHI_010" text="Деревянный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_011" text="Самодельный каплевидный {.MI}щит{.nn} всадника с наплечным ремнём" />
+		<string id="RBM_SHI_012" text="Лёгкий кавалерийский каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_013" text="Кавалерийский каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_014" text="Усиленный малый кавалерийский {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_015" text="Северный кавалерийский каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_016" text="Усиленный кавалерийский {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_017" text="Усиленный кавалерийский каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_018" text="Треугольный {.MI}щит{.nn} с вырезом и наплечным ремнём" />
+		<string id="RBM_SHI_019" text="Тренировочный каплевидный {.MI}щит{.nn} западных всадников с наплечным ремнём" />
+		<string id="RBM_SHI_020" text="Каплевидный {.MI}щит{.nn} западных всадников с наплечным ремнём" />
+		<string id="RBM_SHI_021" text="Усиленный каплевидный {.MI}щит{.nn} с железной оковкой и наплечным ремнём" />
+		<string id="RBM_SHI_022" text="Плоский треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_023" text="Широкий треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_024" text="Рыцарский {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_025" text="Треугольный {.MI}щит{.nn} с накладками и наплечным ремнём" />
+		<string id="RBM_SHI_026" text="Тяжёлый треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_027" text="Высокий треугольный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_028" text="Потрёпанный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_029" text="Тренировочный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_030" text="Каплевидный {.MI}щит{.nn} с железной оковкой и наплечным ремнём" />
+		<string id="RBM_SHI_031" text="Усиленный плоский каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_032" text="Каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_033" text="Клёпаный окованный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_034" text="Укреплённый каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_035" text="Рыцарский каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_036" text="Устанавливаемая {.FI}павеза{.nn}" />
+		<string id="RBM_SHI_037" text="Изношенный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_038" text="Каплевидный {.MI}щит{.nn} с кожаной оковкой и наплечным ремнём" />
+		<string id="RBM_SHI_039" text="Усиленный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_040" text="Усиленный дубовый каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_041" text="Самодельный тренировочный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_042" text="Самодельный каплевидный {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_043" text="Южный круглый тренировочный {.MI}щит{.nn}" />
+		<string id="RBM_SHI_044" text="Южный круглый {.MI}щит{.nn}" />
+		<string id="RBM_SHI_045" text="Северный круглый тренировочный {.MI}щит{.nn}" />
+		<string id="RBM_SHI_046" text="Северный круглый {.MI}щит{.nn}" />
+		<string id="RBM_SHI_047" text="Северный кавалерийский каплевидный {.MI}щит{.nn}" />
+		<string id="RBM_SHI_048" text="Тренировочный каплевидный {.MI}щит{.nn} западных всадников" />
+		<string id="RBM_SHI_049" text="Каплевидный {.MI}щит{.nn} западных всадников" />
+		<string id="RBM_SHI_050" text="Потрёпанный каплевидный {.MI}щит{.nn}" />
+		<string id="RBM_SHI_051" text="Горский {.MI}щит{.nn} застрельщика" />
+		<string id="RBM_SHI_052" text="Горский {.MI}щит{.nn} застрельщика с железным усилением" />
+		<string id="RBM_SHI_053" text="Горский {.MI}щит{.nn} застрельщика с бронзовым усилением" />
+		<string id="RBM_SHI_054" text="Украшенный круглый {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_055" text="Горский круглый {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_056" text="Большой круглый {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_057" text="Тяжёлый круглый {.MI}щит{.nn} с наплечным ремнём" />
+		<string id="RBM_SHI_058" text="Усиленный большой круглый {.MI}щит{.nn} с наплечным ремнём" />
+		<!-- RBMCombat_unit_overhaul.xml Strings -->
+		<string id="RBM_OVH_001" text="Опытный асерайский лучник" />
+		<string id="RBM_OVH_002" text="Вландийская средняя кавалерия" />
+		<string id="RBM_OVH_003" text="Наёмный конный лучник" />
+		<string id="RBM_OVH_004" text="Опытный наёмный конный лучник" />
+		<string id="RBM_OVH_005" text="Наёмный копейщик" />
+		<string id="RBM_OVH_006" text="Наёмный пикинёр" />
+		<string id="RBM_OVH_007" text="Элитный наёмный пикинёр" />
+		<string id="RBM_OVH_008" text="Наёмный арбалетчик" />
+		<string id="RBM_OVH_009" text="Элитный наёмный лучник" />
+		<string id="RBM_OVH_010" text="Всадник" />
+		<string id="RBM_OVH_011" text="Стургийский ударный воин" />
+		<string id="RBM_OVH_012" text="Сын боярина" />
+		<string id="RBM_OVH_013" text="Стургийский берсерк" />
+		<string id="RBM_OVH_014" text="Стургийский ульфхеднар" />
+		<string id="RBM_OVH_015" text="Скене" />
+		<string id="RBM_OVH_016" text="Керн" />
+		<string id="RBM_OVH_017" text="Редшанк" />
+		<string id="RBM_OVH_018" text="Новобранец-страж" />
+		<string id="RBM_OVH_019" text="Опытный страж" />
+		<string id="RBM_OVH_020" text="Ветеран-страж" />
+		<string id="RBM_OVH_021" text="Рыцарь Священного Огня" />
+		<string id="RBM_OVH_022" text="Каракхузаитский кочевник" />
+		<string id="RBM_OVH_023" text="Каракхузаитский наездник" />
+		<string id="RBM_OVH_024" text="Каракхузаитский старейшина" />
+		<string id="RBM_OVH_025" text="Дозорный" />
+		<string id="RBM_OVH_026" text="Наёмный страж" />
+		<string id="RBM_OVH_027" text="Наёмный разведчик" />
+		<string id="RBM_OVH_028" text="Наёмный мечник" />
+		<string id="RBM_OVH_029" text="Наёмный арбалетчик" />
+		<string id="RBM_OVH_030" text="Наёмный всадник" />
+		<string id="RBM_OVH_031" text="Наёмный клинок" />
+		<string id="RBM_OVH_032" text="Наёмная кавалерия" />
+		<string id="RBM_OVH_033" text="Сестра-арбалетчица" />
+		<string id="RBM_OVH_034" text="Доблестная сестра с глефой" />
+		<string id="RBM_OVH_035" text="Сестра с глефой" />
+		<string id="RBM_OVH_036" text="Имперский конный акрит" />
+		<!-- Vanilla RU fixes -->
+		<string id="br0N6SSH" text="{adjectiveGenderCreator(ITEMNAME)}Надломленный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
+		<!-- Extra RBM item names (ids missing from RBM LOC-eng) -->
+		<string id="ZkBvgzhD" text="Асерайский {.MI}бахрия{.nn}" />
+		<string id="eba8yK7l" text="Асерайский опытный {.MI}моряк{.nn}" />
+		<string id="CfaJyPU2" text="Разбойничий {.MI}тесак{.nn}" />
+		<string id="W0JwCkUo" text="{.FI}Головка{.nn} разбойничьей булавы" />
+		<string id="ndlfsaz2" text="{.NI}Лезвие{.nn} топора баргаста" />
+		<string id="EvQfwcbG" text="Большой {.MI}топор{.nn} баргаста" />
+		<string id="6eRjuDu6" text="Батанийский речной {.MI}налётчик{.nn}" />
+		<string id="wZePzBYm" text="Батанийский {.MI}скипари{.nnp}" />
+		<string id="KzwOR85I" text="{.MI}Плащ{.nn} берсерка" />
+		<string id="stt6kTpR" text="{.MI}Шлем{.nn} берсерка" />
+		<string id="1RpDRgLe" text="Усиленный {.MI}плащ{.nn} берсерка" />
+		<string id="j18j5Qq6" text="{.MI}Топор{.nn} берсерка" />
+		<string id="wf0A2FJ7" text="Затупленный {.MI}наконечник{.nn} атгейра" />
+		<string id="VRjBxWn7" text="Затупленное украшенное {.NI}лезвие{.nn} метательного топора" />
+		<string id="bKmaQvWD" text="Затупленный узорчатый {.MI}клинок{.nn} с долом" />
+		<string id="coP0JrWQ" text="Горящие {.MI}стрелы{.nnp}" />
+		<string id="uovbbXnc" text="Горящие {.MI}болты{.nnp}" />
+		<string id="Cb406ptd" text="Резной широкий {.MI}клинок{.nn}" />
+		<string id="zwiRWTW9" text="Кольчужные {.MI}наплечники{.nnp}" />
+		<string id="na3nZMbV" text="Тканевый {.MI}доспех{.nn} корсара" />
+		<string id="lDV710IL" text="{.MI}Шлем{.nn} корсара с перьями" />
+		<string id="3z2G3Db5" text="{.MI}Шлем{.nn} корсара" />
+		<string id="PhDBPZiJ" text="Обёрнутый {.MI}наконечник{.nn} копья" />
+		<string id="6k4nyHPW" text="Тёмный {.MI}клинок{.nn} джамбии" />
+		<string id="u5JubAYN" text="Украшенный затупленный {.MI}наконечник{.nn} копья" />
+		<string id="L99NU0aG" text="Украшенный {.MI}клинок{.nn} с долом" />
+		<string id="qDGTBpcu" text="Украшенный {.MI}клинок{.nn} с долом" />
+		<string id="TnKWL9LG" text="Украшенный {.MI}наконечник{.nn} копья хускарла" />
+		<string id="J5wylxDE" text="Украшенный листовидный {.MI}наконечник{.nn} копья" />
+		<string id="UYv5rwjs" text="Украшенный {.MI}наконечник{.nn} нордского дротика" />
+		<string id="3xujua9x" text="Украшенный нордский {.MI}щит{.nn}" />
+		<string id="whxt5bTa" text="Украшенное {.NI}лезвие{.nn} одноручного топора" />
+		<string id="B3ZFzXzU" text="{.NI}Лезвие{.nn} топора дренга" />
+		<string id="Kjd9E3pB" text="Просверлённый короткий листовидный {.MI}наконечник{.nn}" />
+		<string id="FL9QagP3" text="Узорчатый {.MI}клинок{.nn} с долом" />
+		<string id="SbVmtrUw" text="{.MI}Шлем{.nn} с перьями" />
+		<string id="ic68RdeQ" text="Зажигательная {.FI}картечь{.nn}" />
+		<string id="oiTOCwhg" text="{.MI}Заряд{.nn} зажигательной картечи" />
+		<string id="0XaVL52l" text="Меховой круглый {.MI}щит{.nn}" />
+		<string id="QELt180J" text="Позолоченный благородный {.MI}доспех{.nn}" />
+		<string id="S7jzipVJ" text="Позолоченный благородный {.MI}наплечник{.nn}" />
+		<string id="jYNggNHl" text="Позолоченный {.MI}доспех{.nn} налётчика" />
+		<string id="US2w3NXN" text="Позолоченные {.MI}сапоги{.nnp} налётчика" />
+		<string id="lCaC2QVC" text="Позолоченные {.MI}наручи{.nnp} налётчика" />
+		<string id="eigRPme7" text="Позолоченный {.MI}наплечник{.nn} налётчика" />
+		<string id="iPI533Ht" text="Позолоченный {.MI}доспех{.nn} соратника-щитоносца" />
+		<string id="csDsLYcZ" text="Золочёный украшенный затупленный {.MI}наконечник{.nn} копья" />
+		<string id="ZiKyZMMa" text="Золочёный украшенный {.MI}наконечник{.nn} копья" />
+		<string id="6JDP59hC" text="{.MI}Головолом{.nn}" />
+		<string id="aYTtdE1c" text="{.MI}Наконечник{.nn} копья хирдмана" />
+		<string id="wy0Qz6cC" text="Полое украшенное {.NI}лезвие{.nn} топора" />
+		<string id="dQgzH73b" text="Полый крылатый {.MI}топор{.nn}" />
+		<string id="eHyxxxoK" text="{.MI}Хауберк{.nn} хускарла" />
+		<string id="18ZFPXsO" text="Латные {.MI}сапоги{.nnp} хускарла" />
+		<string id="TwjhbnlW" text="Имперский береговой {.MI}стражник{.nn}" />
+		<string id="4o1howUZ" text="Имперский {.MI}моряк{.nn}" />
+		<string id="PvUgOdjT" text="Имперский {.MI}матрос{.nn}" />
+		<string id="0qeiJLeM" text="{.MI}Клинок{.nn} джамбии" />
+		<string id="zk6V1L31" text="Шишковатый короткий {.MI}наконечник{.nn} копья" />
+		<string id="eeQ4v41t" text="Кожаные {.MI}наручи{.nnp}" />
+		<string id="C9GW6OSF" text="Кожаный круглый {.MI}щит{.nn}" />
+		<string id="UTXYzNim" text="Длинный кожаный {.MI}жилет{.nn}" />
+		<string id="7FJ3axqD" text="Длинный льняной меховой {.MI}плащ{.nn}" />
+		<string id="mK55mQDs" text="Длинное грубое {.NI}древко{.nn} копья" />
+		<string id="1sowgke0" text="Длинный шерстяной {.MI}плащ{.nn}" />
+		<string id="UupDebkq" text="Длинный широкий {.MI}наконечник{.nn} копья" />
+		<string id="GdM7iaV9" text="Господский стальной {.MI}наголовник{.nn}" />
+		<string id="qAWN552z" text="Кольчужные {.MI}рукавицы{.nnp} с кожаным усилением" />
+		<string id="YHmObN5p" text="Величественные железные {.MI}сапоги{.nnp}" />
+		<string id="CHhdu8A3" text="Величественные {.MI}перчатки{.nnp}" />
+		<string id="dpHDIwKz" text="Кожаный {.MI}гамбезон{.nn} моряка" />
+		<string id="ar8zJlCr" text="Северный {.MI}доспех{.nn} мастерской работы" />
+		<string id="AGHRra9l" text="Игольчатый {.MI}клинок{.nn}" />
+		<string id="7DgCFugF" text="Благородный {.MI}клинок{.nn} каскары" />
+		<string id="7v15a6aH" text="Вооружённый нордский {.MI}торговец{.nn}" />
+		<string id="XJhUOn1p" text="{.MI}Наконечник{.nn} нордского атгейра" />
+		<string id="BTjW1WU1" text="Нордский {.MI}топор{.nn}" />
+		<string id="NuEuEucc" text="Нордский {.MI}воин{.nn} с топором" />
+		<string id="nMedC0tz" text="{.MI}Клинок{.nn} нордского палаша" />
+		<string id="dnOb7o37" text="{.NI}Лезвие{.nn} нордского боевого метательного топора" />
+		<string id="d7XgM4EZ" text="Нордский {.MI}берсерк{.nn}" />
+		<string id="wk0uDFv7" text="Нордский широкий {.MI}клинок{.nn}" />
+		<string id="iln3nSsq" text="Нордский караванный {.MI}стражник{.nn}" />
+		<string id="ID0mBGaU" text="Нордский {.MI}караванщик{.nn}" />
+		<string id="W55gdLwu" text="Украшенное {.NI}лезвие{.nn} нордского метательного топора" />
+		<string id="IZqhY4Vs" text="Травлёное {.NI}лезвие{.nn} нордского боевого топора" />
+		<string id="TuzO0Irm" text="Травлёное {.NI}лезвие{.nn} нордского боевого топора с плетёным узором" />
+		<string id="xizb5Qyk" text="Травлёное затупленное {.NI}лезвие{.nn} нордского боевого топора" />
+		<string id="Cn8OFyGZ" text="Травлёное широкое {.NI}лезвие{.nn} нордского боевого топора" />
+		<string id="JOyMcqZu" text="Травлёное широкое {.NI}лезвие{.nn} нордского боевого топора с плетёным узором" />
+		<string id="riJbUCl9" text="Нордский вольный {.MI}лучник{.nn}" />
+		<string id="NYvRbkz2" text="{.NI}Лезвие{.nn} нордского топорика" />
+		<string id="iOaO8NGB" text="Нордский {.MI}дружинник{.nn}" />
+		<string id="9N0vTQnf" text="Полое затупленное {.NI}лезвие{.nn} нордского двуручного топора" />
+		<string id="67PLvXL5" text="Полое украшенное {.NI}лезвие{.nn} нордского двуручного топора" />
+		<string id="HZzitkbA" text="Полый нордский двуручный {.MI}топор{.nn}" />
+		<string id="hkzD5lfa" text="Полое {.NI}лезвие{.nn} нордского двуручного топора" />
+		<string id="vWSJeIco" text="Нордский {.MI}охотник{.nn}" />
+		<string id="JnwNuZb7" text="Нордский {.MI}хускарл{.nn}" />
+		<string id="lLPgEh9p" text="Нордский {.MI}мародёр{.nn}" />
+		<string id="5LvI1bsQ" text="Нордский {.MI}стрелок{.nn}" />
+		<string id="otySLQx8" text="Нордский {.MI}ополченец-лучник{.nn}" />
+		<string id="zdzs2ulH" text="Нордский {.MI}ополченец-копейщик{.nn}" />
+		<string id="838d1Yy8" text="Нордский опытный {.MI}ополченец-лучник{.nn}" />
+		<string id="hTvbIUt4" text="Нордский опытный {.MI}ополченец-копейщик{.nn}" />
+		<string id="5PIe3Zia" text="Нордский {.MI}наследник{.nn}" />
+		<string id="QaAsyLju" text="Нордский {.MI}щитогрыз{.nn}" />
+		<string id="RRbpc6fr" text="Нордский {.MI}соратник-щитоносец{.nn}" />
+		<string id="2RnBNzlX" text="Нордский {.MI}скьяльдбрестир{.nn}" />
+		<string id="mI7igoBF" text="Нордский {.MI}избранник{.nn} небесных богов" />
+		<string id="GriAus4K" text="Нордский {.MI}воин{.nn} с копьём" />
+		<string id="WRrPvWQM" text="{.NI}Лезвие{.nn} нордского метательного топора" />
+		<string id="0vUOqTq5" text="{.NI}Лезвие{.nn} нордского метательного топорика" />
+		<string id="z9UlwqbJ" text="{.NI}Лезвие{.nn} нордского двуручного топора" />
+		<string id="7T3mspgx" text="Нордский {.MI}ульфхеднар{.nn}" />
+		<string id="bqy8Pvbx" text="Нордский опытный караванный {.MI}стражник{.nn}" />
+		<string id="ovmbmg29" text="Нордский {.MI}житель{.nn} деревни" />
+		<string id="aztogWWW" text="Нордский испытанный {.MI}воин{.nn}" />
+		<string id="VpTQ5SyS" text="Нордский боевой {.MI}клык{.nn}" />
+		<string id="sXNNaJ7Q" text="Нордский {.MI}воин{.nn}" />
+		<string id="BylR8JFS" text="Нордский {.MI}юнец{.nn}" />
+		<string id="9jhbWP5f" text="Нордские бронированные {.MI}наплечники{.nnp}" />
+		<string id="ZqQFHHvy" text="Нордская гражданская {.FI}шапка{.nn}" />
+		<string id="jw8fKXRu" text="Нордская гражданская {.FI}шапка{.nn} с меховой опушкой" />
+		<string id="GAJbg0Jx" text="Украшенная нордская {.FI}тарча{.nn}" />
+		<string id="ja1tbR4y" text="Нордское {.NI}платье{.nn}" />
+		<string id="2ubbCL20" text="Нордский меховой {.MI}плащ{.nn}" />
+		<string id="DsV34PTX" text="Нордский меховой кольчужный {.MI}плащ{.nn}" />
+		<string id="ZAeQ7GpQ" text="Нордский тяжёлый кольчужный {.MI}доспех{.nn}" />
+		<string id="7bOfcEzK" text="Нордская роскошная {.FI}туника{.nn}" />
+		<string id="WTum1FXz" text="Нордское клетчатое {.NI}платье{.nn}" />
+		<string id="hJbTKM2u" text="Нордская {.FI}тарча{.nn}" />
+		<string id="er4Ewoeo" text="Нордская шерстяная {.FI}туника{.nn}" />
+		<string id="WCM38v9X" text="Нордская {.FI}кольчуга{.nn}" />
+		<string id="nrKlORwM" text="Северный меховой {.MI}плащ{.nn}" />
+		<string id="KCYVy9fn" text="Северная {.FI}туника{.nn} с плетёным узором" />
+		<string id="viDpmCPa" text="Северные ламеллярные {.MI}наплечники{.nnp}" />
+		<string id="MX73rUwD" text="Северная величественная {.FI}корона{.nn}" />
+		<string id="PrUts5OS" text="Северный величественный {.MI}наплечник{.nn}" />
+		<string id="iVGuFOec" text="Северный {.MI}доспех{.nn} налётчика" />
+		<string id="8d8xLbBH" text="Северные {.MI}сапоги{.nnp} налётчика" />
+		<string id="wkgxuGvo" text="Тяжёлый меховой {.MI}плащ{.nn} северного налётчика" />
+		<string id="96SmfRN8" text="{.MI}Наручи{.nnp} северного налётчика" />
+		<string id="a9Bn9JTY" text="{.NI}Лезвие{.nn} топора северян" />
+		<string id="VPICWkKq" text="Старый гвардейский {.MI}шлем{.nn}" />
+		<string id="RkBmuucV" text="Старая льняная {.FI}туника{.nn}" />
+		<string id="aJsihC9U" text="Орнаментированный нордский {.MI}щит{.nn}" />
+		<string id="noqT1MMC" text="{.NI}Богато{.nn} украшенный стальной наголовник" />
+		<string id="SHZ0P7Iu" text="Стёганый кожаный {.MI}плащ{.nn}" />
+		<string id="H8RwQB3u" text="{.MI}Наконечник{.nn} пики" />
+		<string id="sRNDwJ85" text="Тканевый {.MI}доспех{.nn} пирата" />
+		<string id="nnEMKAcy" text="{.MI}Шлем{.nn} пирата с тюрбаном" />
+		<string id="wwlSmzZ6" text="Кожаный {.MI}доспех{.nn} пирата" />
+		<string id="LQ9X2e1A" text="Пиратский {.MI}тюрбан{.nn}" />
+		<string id="3FKW6OLa" text="Пиратский {.MI}тюрбан{.nn} с камнем" />
+		<string id="LYjawjAg" text="Разбойничий {.MI}шлем{.nn} с плюмажем" />
+		<string id="aVqWDZFA" text="{.MI}Наплечник{.nn} из змеиной кожи с плюмажем" />
+		<string id="GL5XuZUs" text="Бронзовые {.MI}сапоги{.nnp} налётчика" />
+		<string id="mWbA1P4z" text="Бронзовое {.NI}облачение{.nn} налётчика" />
+		<string id="9uJYaxe3" text="Бронзовые {.MI}перчатки{.nnp} налётчика" />
+		<string id="beShQCIS" text="{.FI}Одежда{.nn} налётчика" />
+		<string id="Y3RErkMr" text="Меховой {.MI}шлем{.nn} налётчика" />
+		<string id="MNVp3MUF" text="Меховой {.MI}наплечник{.nn} налётчика" />
+		<string id="ecc2QSuK" text="Железное {.NI}облачение{.nn} налётчика" />
+		<string id="vkz9JMS4" text="Усиленный меховой {.MI}шлем{.nn} налётчика" />
+		<string id="HabHagNK" text="Усиленный {.MI}наплечник{.nn} налётчика" />
+		<string id="CHIq1ODq" text="{.MI}Топор{.nn} «Вороново крыло»" />
+		<string id="cQPMKMvU" text="Усиленный полый крылатый {.MI}топор{.nn}" />
+		<string id="4TsyBEUX" text="Усиленные ламеллярные {.MI}наплечники{.nnp}" />
+		<string id="qxDt8gnY" text="Усиленный нордский {.MI}топор{.nn}" />
+		<string id="NeCHVy6I" text="Усиленные северные кольчужные {.MI}рукавицы{.nnp}" />
+		<string id="qX8OuuUy" text="Усиленный {.MI}топор{.nn} «Вороново крыло»" />
+		<string id="IK9aaUNt" text="Усиленное {.NI}навершие{.nn} «Голова волка»" />
+		<string id="F8ZJza3k" text="{.MI}Щит{.nn} с верёвочной обвязкой" />
+		<string id="lcbBLXAK" text="{.MI}Клинок{.nn} с рунами" />
+		<string id="czT4WJp8" text="{.MI}Клинок{.nn} с долом и рунами" />
+		<string id="TriXQK01" text="Длинный {.MI}клинок{.nn} с долом и рунами" />
+		<string id="fEsH0AYt" text="Короткий {.MI}клинок{.nn} с рунами" />
+		<string id="4RGsWCZp" text="{.MI}Шлем{.nn} с плюмажем из змеиной кожи" />
+		<string id="vW0H5fEQ" text="Короткий широкий {.MI}клинок{.nn}" />
+		<string id="5eUfSvDL" text="Короткие {.MI}сапоги{.nnp} с клапаном" />
+		<string id="3vv0XMGE" text="Короткое грубое {.NI}древко{.nn} копья" />
+		<string id="3x5dzOFX" text="{.MI}Наручи{.nnp} с пластинами" />
+		<string id="LUZRUXQg" text="Стальной {.MI}щит{.nn} с крестом" />
+		<string id="1vXF13ka" text="Стальной орнаментированный {.MI}щит{.nn}" />
+		<string id="BvOMXDhA" text="Ремневые {.MI}ботфорты{.nnp}" />
+		<string id="cahNTPOW" text="Клёпаные {.MI}наручи{.nnp}" />
+		<string id="fKl3b9hT" text="Стургийский {.MI}матрос{.nn}" />
+		<string id="WzQVBWxL" text="Стургийский {.MI}разбойник{.nn}" />
+		<string id="Ow9dH1pP" text="Стургийский опытный {.MI}моряк{.nn}" />
+		<string id="VAl57s9g" text="Быстрый крылатый {.MI}топор{.nn}" />
+		<string id="DMciP5z3" text="Длинное тартановое {.NI}платье{.nn}" />
+		<string id="WXpFz7b2" text="{.MI}Наконечник{.nn} копья тэна" />
+		<string id="DLGDKvtq" text="Широкий {.MI}наконечник{.nn} копья варга" />
+		<string id="bjUztSDg" text="Вландийский {.MI}моряк{.nn}" />
+		<string id="TDjXoPkn" text="Вландийский бывалый {.MI}мореход{.nn}" />
+		<string id="160aqzPm" text="Боевая {.FI}бритва{.nn}" />
+		<string id="peTfjzWZ" text="Шепчущие {.MI}стрелы{.nnp}" />
+		<string id="Mof8L5Oa" text="150-фунтовая «Шепчущая {.FI}тень{.nn}»" />
+		<string id="VqSqC63z" text="Широкий и длинный {.MI}клинок{.nn} с долом" />
+		<string id="uLtCPJNV" text="Широкий {.MI}клинок{.nn} с долом" />
+		<string id="TbXnhpzO" text="Широкий нордский {.MI}клинок{.nn}" />
+		<string id="mMEBkvP9" text="Изношенные кожаные {.MI}сапоги{.nnp}" />
+	</strings>
+</base>
