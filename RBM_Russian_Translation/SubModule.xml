@@ -2,7 +2,7 @@
 <Module>
 	<Name value="RBM - Russian Translation"/>
 	<Id value="RBM_Russian_Translation"/>
-	<Version value="v1.0.0"/>
+	<Version value="v1.1.0"/>
 	<DefaultModule value="false"/>
 	<ModuleCategory value="Singleplayer"/>
 	<ModuleType value="Community"/>
