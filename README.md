@@ -14,7 +14,7 @@ Mount & Blade II: Bannerlord, сделанный с нуля.
 
 ## Возможности
 
-- **534 строки**, все файлы проходят проверку XML.
+- **575 строк**, все файлы проходят проверку XML.
 - Все игровые токены (переменные `{DMG}` и условные конструкции) сохранены — проверено автоматически.
 - **Грамматическое согласование модификаторов** по роду и числу (Легендарн**ый** лук /
   Легендарн**ые** стрелы), как в ванильной локализации.
@@ -36,7 +36,7 @@ Slow Motion in Combat, Stamina System*) заданы в коде мода **бе
 
 ## Требования / совместимость
 
-Realistic Battle Mod (v4.3.x). Перевод не содержит кода и не меняет баланс.
+Realistic Battle Mod (v4.3.5, включая сабмод War Sails / RBM_WS). Перевод не содержит кода и не меняет баланс.
 Совместим с переводом Open Source Armory.
 
 ## Структура репозитория
@@ -74,7 +74,7 @@ tools/                     — скрипты сборки и грамматич
 
 Complete, from-scratch Russian translation for **Realistic Battle Mod**: item names
 (bows, crossbows, arrows, shields, armor, throwables, Nord-faction units and gear),
-tooltips ("RBM Stats"), combat/AI text, and MCM options. 534 strings, grammatical
+tooltips ("RBM Stats"), combat/AI text, and MCM options. 575 strings, grammatical
 gender/number agreement for item modifiers, all `{TOKEN}` placeholders preserved.
 Load **after** RBM. Text-only, no DLL. A few RBM items and three MCM options are
 hardcoded in the mod's DLL without localization ids and therefore cannot be translated

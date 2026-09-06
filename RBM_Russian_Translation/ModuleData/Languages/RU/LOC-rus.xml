@@ -353,208 +353,249 @@
 		<!-- Vanilla RU fixes -->
 		<string id="br0N6SSH" text="{adjectiveGenderCreator(ITEMNAME)}Надломленный{?IS_PLURAL_WORD_GROUP(ITEMNAME)}{.jp}{?}{.j}{\?} {._}{ITEMNAME}{.n}" />
 		<!-- Extra RBM item names (ids missing from RBM LOC-eng) -->
-		<string id="ZkBvgzhD" text="Асерайский {.MI}бахрия{.nn}" />
-		<string id="eba8yK7l" text="Асерайский опытный {.MI}моряк{.nn}" />
-		<string id="CfaJyPU2" text="Разбойничий {.MI}тесак{.nn}" />
-		<string id="W0JwCkUo" text="{.FI}Головка{.nn} разбойничьей булавы" />
-		<string id="ndlfsaz2" text="{.NI}Лезвие{.nn} топора баргаста" />
-		<string id="EvQfwcbG" text="Большой {.MI}топор{.nn} баргаста" />
-		<string id="6eRjuDu6" text="Батанийский речной {.MI}налётчик{.nn}" />
-		<string id="wZePzBYm" text="Батанийский {.MI}скипари{.nnp}" />
-		<string id="KzwOR85I" text="{.MI}Плащ{.nn} берсерка" />
-		<string id="stt6kTpR" text="{.MI}Шлем{.nn} берсерка" />
-		<string id="1RpDRgLe" text="Усиленный {.MI}плащ{.nn} берсерка" />
-		<string id="j18j5Qq6" text="{.MI}Топор{.nn} берсерка" />
-		<string id="wf0A2FJ7" text="Затупленный {.MI}наконечник{.nn} атгейра" />
-		<string id="VRjBxWn7" text="Затупленное украшенное {.NI}лезвие{.nn} метательного топора" />
-		<string id="bKmaQvWD" text="Затупленный узорчатый {.MI}клинок{.nn} с долом" />
-		<string id="coP0JrWQ" text="Горящие {.MI}стрелы{.nnp}" />
-		<string id="uovbbXnc" text="Горящие {.MI}болты{.nnp}" />
-		<string id="Cb406ptd" text="Резной широкий {.MI}клинок{.nn}" />
-		<string id="zwiRWTW9" text="Кольчужные {.MI}наплечники{.nnp}" />
-		<string id="na3nZMbV" text="Тканевый {.MI}доспех{.nn} корсара" />
-		<string id="lDV710IL" text="{.MI}Шлем{.nn} корсара с перьями" />
-		<string id="3z2G3Db5" text="{.MI}Шлем{.nn} корсара" />
-		<string id="PhDBPZiJ" text="Обёрнутый {.MI}наконечник{.nn} копья" />
-		<string id="6k4nyHPW" text="Тёмный {.MI}клинок{.nn} джамбии" />
-		<string id="u5JubAYN" text="Украшенный затупленный {.MI}наконечник{.nn} копья" />
-		<string id="L99NU0aG" text="Украшенный {.MI}клинок{.nn} с долом" />
-		<string id="qDGTBpcu" text="Украшенный {.MI}клинок{.nn} с долом" />
-		<string id="TnKWL9LG" text="Украшенный {.MI}наконечник{.nn} копья хускарла" />
-		<string id="J5wylxDE" text="Украшенный листовидный {.MI}наконечник{.nn} копья" />
-		<string id="UYv5rwjs" text="Украшенный {.MI}наконечник{.nn} нордского дротика" />
-		<string id="3xujua9x" text="Украшенный нордский {.MI}щит{.nn}" />
-		<string id="whxt5bTa" text="Украшенное {.NI}лезвие{.nn} одноручного топора" />
-		<string id="B3ZFzXzU" text="{.NI}Лезвие{.nn} топора дренга" />
-		<string id="Kjd9E3pB" text="Просверлённый короткий листовидный {.MI}наконечник{.nn}" />
-		<string id="FL9QagP3" text="Узорчатый {.MI}клинок{.nn} с долом" />
-		<string id="SbVmtrUw" text="{.MI}Шлем{.nn} с перьями" />
-		<string id="ic68RdeQ" text="Зажигательная {.FI}картечь{.nn}" />
-		<string id="oiTOCwhg" text="{.MI}Заряд{.nn} зажигательной картечи" />
 		<string id="0XaVL52l" text="Меховой круглый {.MI}щит{.nn}" />
-		<string id="QELt180J" text="Позолоченный благородный {.MI}доспех{.nn}" />
-		<string id="S7jzipVJ" text="Позолоченный благородный {.MI}наплечник{.nn}" />
-		<string id="jYNggNHl" text="Позолоченный {.MI}доспех{.nn} налётчика" />
-		<string id="US2w3NXN" text="Позолоченные {.MI}сапоги{.nnp} налётчика" />
-		<string id="lCaC2QVC" text="Позолоченные {.MI}наручи{.nnp} налётчика" />
-		<string id="eigRPme7" text="Позолоченный {.MI}наплечник{.nn} налётчика" />
-		<string id="iPI533Ht" text="Позолоченный {.MI}доспех{.nn} соратника-щитоносца" />
-		<string id="csDsLYcZ" text="Золочёный украшенный затупленный {.MI}наконечник{.nn} копья" />
-		<string id="ZiKyZMMa" text="Золочёный украшенный {.MI}наконечник{.nn} копья" />
-		<string id="6JDP59hC" text="{.MI}Головолом{.nn}" />
-		<string id="aYTtdE1c" text="{.MI}Наконечник{.nn} копья хирдмана" />
-		<string id="wy0Qz6cC" text="Полое украшенное {.NI}лезвие{.nn} топора" />
-		<string id="dQgzH73b" text="Полый крылатый {.MI}топор{.nn}" />
-		<string id="eHyxxxoK" text="{.MI}Хауберк{.nn} хускарла" />
-		<string id="18ZFPXsO" text="Латные {.MI}сапоги{.nnp} хускарла" />
-		<string id="TwjhbnlW" text="Имперский береговой {.MI}стражник{.nn}" />
-		<string id="4o1howUZ" text="Имперский {.MI}моряк{.nn}" />
-		<string id="PvUgOdjT" text="Имперский {.MI}матрос{.nn}" />
 		<string id="0qeiJLeM" text="{.MI}Клинок{.nn} джамбии" />
-		<string id="zk6V1L31" text="Шишковатый короткий {.MI}наконечник{.nn} копья" />
-		<string id="eeQ4v41t" text="Кожаные {.MI}наручи{.nnp}" />
-		<string id="C9GW6OSF" text="Кожаный круглый {.MI}щит{.nn}" />
-		<string id="UTXYzNim" text="Длинный кожаный {.MI}жилет{.nn}" />
-		<string id="7FJ3axqD" text="Длинный льняной меховой {.MI}плащ{.nn}" />
-		<string id="mK55mQDs" text="Длинное грубое {.NI}древко{.nn} копья" />
-		<string id="1sowgke0" text="Длинный шерстяной {.MI}плащ{.nn}" />
-		<string id="UupDebkq" text="Длинный широкий {.MI}наконечник{.nn} копья" />
-		<string id="GdM7iaV9" text="Господский стальной {.MI}наголовник{.nn}" />
-		<string id="qAWN552z" text="Кольчужные {.MI}рукавицы{.nnp} с кожаным усилением" />
-		<string id="YHmObN5p" text="Величественные железные {.MI}сапоги{.nnp}" />
-		<string id="CHhdu8A3" text="Величественные {.MI}перчатки{.nnp}" />
-		<string id="dpHDIwKz" text="Кожаный {.MI}гамбезон{.nn} моряка" />
-		<string id="ar8zJlCr" text="Северный {.MI}доспех{.nn} мастерской работы" />
-		<string id="AGHRra9l" text="Игольчатый {.MI}клинок{.nn}" />
-		<string id="7DgCFugF" text="Благородный {.MI}клинок{.nn} каскары" />
-		<string id="7v15a6aH" text="Вооружённый нордский {.MI}торговец{.nn}" />
-		<string id="XJhUOn1p" text="{.MI}Наконечник{.nn} нордского атгейра" />
-		<string id="BTjW1WU1" text="Нордский {.MI}топор{.nn}" />
-		<string id="NuEuEucc" text="Нордский {.MI}воин{.nn} с топором" />
-		<string id="nMedC0tz" text="{.MI}Клинок{.nn} нордского палаша" />
-		<string id="dnOb7o37" text="{.NI}Лезвие{.nn} нордского боевого метательного топора" />
-		<string id="d7XgM4EZ" text="Нордский {.MI}берсерк{.nn}" />
-		<string id="wk0uDFv7" text="Нордский широкий {.MI}клинок{.nn}" />
-		<string id="iln3nSsq" text="Нордский караванный {.MI}стражник{.nn}" />
-		<string id="ID0mBGaU" text="Нордский {.MI}караванщик{.nn}" />
-		<string id="W55gdLwu" text="Украшенное {.NI}лезвие{.nn} нордского метательного топора" />
-		<string id="IZqhY4Vs" text="Травлёное {.NI}лезвие{.nn} нордского боевого топора" />
-		<string id="TuzO0Irm" text="Травлёное {.NI}лезвие{.nn} нордского боевого топора с плетёным узором" />
-		<string id="xizb5Qyk" text="Травлёное затупленное {.NI}лезвие{.nn} нордского боевого топора" />
-		<string id="Cn8OFyGZ" text="Травлёное широкое {.NI}лезвие{.nn} нордского боевого топора" />
-		<string id="JOyMcqZu" text="Травлёное широкое {.NI}лезвие{.nn} нордского боевого топора с плетёным узором" />
-		<string id="riJbUCl9" text="Нордский вольный {.MI}лучник{.nn}" />
-		<string id="NYvRbkz2" text="{.NI}Лезвие{.nn} нордского топорика" />
-		<string id="iOaO8NGB" text="Нордский {.MI}дружинник{.nn}" />
-		<string id="9N0vTQnf" text="Полое затупленное {.NI}лезвие{.nn} нордского двуручного топора" />
-		<string id="67PLvXL5" text="Полое украшенное {.NI}лезвие{.nn} нордского двуручного топора" />
-		<string id="HZzitkbA" text="Полый нордский двуручный {.MI}топор{.nn}" />
-		<string id="hkzD5lfa" text="Полое {.NI}лезвие{.nn} нордского двуручного топора" />
-		<string id="vWSJeIco" text="Нордский {.MI}охотник{.nn}" />
-		<string id="JnwNuZb7" text="Нордский {.MI}хускарл{.nn}" />
-		<string id="lLPgEh9p" text="Нордский {.MI}мародёр{.nn}" />
-		<string id="5LvI1bsQ" text="Нордский {.MI}стрелок{.nn}" />
-		<string id="otySLQx8" text="Нордский {.MI}ополченец-лучник{.nn}" />
-		<string id="zdzs2ulH" text="Нордский {.MI}ополченец-копейщик{.nn}" />
-		<string id="838d1Yy8" text="Нордский опытный {.MI}ополченец-лучник{.nn}" />
-		<string id="hTvbIUt4" text="Нордский опытный {.MI}ополченец-копейщик{.nn}" />
-		<string id="5PIe3Zia" text="Нордский {.MI}наследник{.nn}" />
-		<string id="QaAsyLju" text="Нордский {.MI}щитогрыз{.nn}" />
-		<string id="RRbpc6fr" text="Нордский {.MI}соратник-щитоносец{.nn}" />
-		<string id="2RnBNzlX" text="Нордский {.MI}скьяльдбрестир{.nn}" />
-		<string id="mI7igoBF" text="Нордский {.MI}избранник{.nn} небесных богов" />
-		<string id="GriAus4K" text="Нордский {.MI}воин{.nn} с копьём" />
-		<string id="WRrPvWQM" text="{.NI}Лезвие{.nn} нордского метательного топора" />
 		<string id="0vUOqTq5" text="{.NI}Лезвие{.nn} нордского метательного топорика" />
-		<string id="z9UlwqbJ" text="{.NI}Лезвие{.nn} нордского двуручного топора" />
-		<string id="7T3mspgx" text="Нордский {.MI}ульфхеднар{.nn}" />
-		<string id="bqy8Pvbx" text="Нордский опытный караванный {.MI}стражник{.nn}" />
-		<string id="ovmbmg29" text="Нордский {.MI}житель{.nn} деревни" />
-		<string id="aztogWWW" text="Нордский испытанный {.MI}воин{.nn}" />
-		<string id="VpTQ5SyS" text="Нордский боевой {.MI}клык{.nn}" />
-		<string id="sXNNaJ7Q" text="Нордский {.MI}воин{.nn}" />
-		<string id="BylR8JFS" text="Нордский {.MI}юнец{.nn}" />
-		<string id="9jhbWP5f" text="Нордские бронированные {.MI}наплечники{.nnp}" />
-		<string id="ZqQFHHvy" text="Нордская гражданская {.FI}шапка{.nn}" />
-		<string id="jw8fKXRu" text="Нордская гражданская {.FI}шапка{.nn} с меховой опушкой" />
-		<string id="GAJbg0Jx" text="Украшенная нордская {.FI}тарча{.nn}" />
-		<string id="ja1tbR4y" text="Нордское {.NI}платье{.nn}" />
+		<string id="160aqzPm" text="Боевая {.FI}бритва{.nn}" />
+		<string id="18ZFPXsO" text="Латные {.MI}сапоги{.nnp} хускарла" />
+		<string id="1RpDRgLe" text="Усиленный {.MI}плащ{.nn} берсерка" />
+		<string id="1sowgke0" text="Длинный шерстяной {.MI}плащ{.nn}" />
+		<string id="1vXF13ka" text="Стальной орнаментированный {.MI}щит{.nn}" />
+		<string id="2HDPaohZ" text="Опытный {.MI}лесник{.nn}" />
+		<string id="2RnBNzlX" text="Нордский {.MI}скьяльдбрестир{.nn}" />
 		<string id="2ubbCL20" text="Нордский меховой {.MI}плащ{.nn}" />
-		<string id="DsV34PTX" text="Нордский меховой кольчужный {.MI}плащ{.nn}" />
-		<string id="ZAeQ7GpQ" text="Нордский тяжёлый кольчужный {.MI}доспех{.nn}" />
-		<string id="7bOfcEzK" text="Нордская роскошная {.FI}туника{.nn}" />
-		<string id="WTum1FXz" text="Нордское клетчатое {.NI}платье{.nn}" />
-		<string id="hJbTKM2u" text="Нордская {.FI}тарча{.nn}" />
-		<string id="er4Ewoeo" text="Нордская шерстяная {.FI}туника{.nn}" />
-		<string id="WCM38v9X" text="Нордская {.FI}кольчуга{.nn}" />
-		<string id="nrKlORwM" text="Северный меховой {.MI}плащ{.nn}" />
-		<string id="KCYVy9fn" text="Северная {.FI}туника{.nn} с плетёным узором" />
-		<string id="viDpmCPa" text="Северные ламеллярные {.MI}наплечники{.nnp}" />
-		<string id="MX73rUwD" text="Северная величественная {.FI}корона{.nn}" />
-		<string id="PrUts5OS" text="Северный величественный {.MI}наплечник{.nn}" />
-		<string id="iVGuFOec" text="Северный {.MI}доспех{.nn} налётчика" />
-		<string id="8d8xLbBH" text="Северные {.MI}сапоги{.nnp} налётчика" />
-		<string id="wkgxuGvo" text="Тяжёлый меховой {.MI}плащ{.nn} северного налётчика" />
-		<string id="96SmfRN8" text="{.MI}Наручи{.nnp} северного налётчика" />
-		<string id="a9Bn9JTY" text="{.NI}Лезвие{.nn} топора северян" />
-		<string id="VPICWkKq" text="Старый гвардейский {.MI}шлем{.nn}" />
-		<string id="RkBmuucV" text="Старая льняная {.FI}туника{.nn}" />
-		<string id="aJsihC9U" text="Орнаментированный нордский {.MI}щит{.nn}" />
-		<string id="noqT1MMC" text="{.NI}Богато{.nn} украшенный стальной наголовник" />
-		<string id="SHZ0P7Iu" text="Стёганый кожаный {.MI}плащ{.nn}" />
-		<string id="H8RwQB3u" text="{.MI}Наконечник{.nn} пики" />
-		<string id="sRNDwJ85" text="Тканевый {.MI}доспех{.nn} пирата" />
-		<string id="nnEMKAcy" text="{.MI}Шлем{.nn} пирата с тюрбаном" />
-		<string id="wwlSmzZ6" text="Кожаный {.MI}доспех{.nn} пирата" />
-		<string id="LQ9X2e1A" text="Пиратский {.MI}тюрбан{.nn}" />
 		<string id="3FKW6OLa" text="Пиратский {.MI}тюрбан{.nn} с камнем" />
-		<string id="LYjawjAg" text="Разбойничий {.MI}шлем{.nn} с плюмажем" />
-		<string id="aVqWDZFA" text="{.MI}Наплечник{.nn} из змеиной кожи с плюмажем" />
-		<string id="GL5XuZUs" text="Бронзовые {.MI}сапоги{.nnp} налётчика" />
-		<string id="mWbA1P4z" text="Бронзовое {.NI}облачение{.nn} налётчика" />
-		<string id="9uJYaxe3" text="Бронзовые {.MI}перчатки{.nnp} налётчика" />
-		<string id="beShQCIS" text="{.FI}Одежда{.nn} налётчика" />
-		<string id="Y3RErkMr" text="Меховой {.MI}шлем{.nn} налётчика" />
-		<string id="MNVp3MUF" text="Меховой {.MI}наплечник{.nn} налётчика" />
-		<string id="ecc2QSuK" text="Железное {.NI}облачение{.nn} налётчика" />
-		<string id="vkz9JMS4" text="Усиленный меховой {.MI}шлем{.nn} налётчика" />
-		<string id="HabHagNK" text="Усиленный {.MI}наплечник{.nn} налётчика" />
-		<string id="CHIq1ODq" text="{.MI}Топор{.nn} «Вороново крыло»" />
-		<string id="cQPMKMvU" text="Усиленный полый крылатый {.MI}топор{.nn}" />
-		<string id="4TsyBEUX" text="Усиленные ламеллярные {.MI}наплечники{.nnp}" />
-		<string id="qxDt8gnY" text="Усиленный нордский {.MI}топор{.nn}" />
-		<string id="NeCHVy6I" text="Усиленные северные кольчужные {.MI}рукавицы{.nnp}" />
-		<string id="qX8OuuUy" text="Усиленный {.MI}топор{.nn} «Вороново крыло»" />
-		<string id="IK9aaUNt" text="Усиленное {.NI}навершие{.nn} «Голова волка»" />
-		<string id="F8ZJza3k" text="{.MI}Щит{.nn} с верёвочной обвязкой" />
-		<string id="lcbBLXAK" text="{.MI}Клинок{.nn} с рунами" />
-		<string id="czT4WJp8" text="{.MI}Клинок{.nn} с долом и рунами" />
-		<string id="TriXQK01" text="Длинный {.MI}клинок{.nn} с долом и рунами" />
-		<string id="fEsH0AYt" text="Короткий {.MI}клинок{.nn} с рунами" />
-		<string id="4RGsWCZp" text="{.MI}Шлем{.nn} с плюмажем из змеиной кожи" />
-		<string id="vW0H5fEQ" text="Короткий широкий {.MI}клинок{.nn}" />
-		<string id="5eUfSvDL" text="Короткие {.MI}сапоги{.nnp} с клапаном" />
 		<string id="3vv0XMGE" text="Короткое грубое {.NI}древко{.nn} копья" />
 		<string id="3x5dzOFX" text="{.MI}Наручи{.nnp} с пластинами" />
-		<string id="LUZRUXQg" text="Стальной {.MI}щит{.nn} с крестом" />
-		<string id="1vXF13ka" text="Стальной орнаментированный {.MI}щит{.nn}" />
+		<string id="3xujua9x" text="Украшенный нордский {.MI}щит{.nn}" />
+		<string id="3z2G3Db5" text="{.MI}Шлем{.nn} корсара" />
+		<string id="4RGsWCZp" text="{.MI}Шлем{.nn} с плюмажем из змеиной кожи" />
+		<string id="4TsyBEUX" text="Усиленные ламеллярные {.MI}наплечники{.nnp}" />
+		<string id="4o1howUZ" text="Имперский {.MI}моряк{.nn}" />
+		<string id="5LvI1bsQ" text="Нордский {.MI}стрелок{.nn}" />
+		<string id="5PIe3Zia" text="Нордский {.MI}наследник{.nn}" />
+		<string id="5eUfSvDL" text="Короткие {.MI}сапоги{.nnp} с клапаном" />
+		<string id="67PLvXL5" text="Полое украшенное {.NI}лезвие{.nn} нордского двуручного топора" />
+		<string id="6CMYwYai" text="Чернёный {.MI}плащ{.nn}" />
+		<string id="6Db7aDbF" text="{.MI}Стрелы{.nnp} для баллисты" />
+		<string id="6JDP59hC" text="{.MI}Головолом{.nn}" />
+		<string id="6eRjuDu6" text="Батанийский речной {.MI}налётчик{.nn}" />
+		<string id="6k4nyHPW" text="Тёмный {.MI}клинок{.nn} джамбии" />
+		<string id="7DgCFugF" text="Благородный {.MI}клинок{.nn} каскары" />
+		<string id="7EUhAv8b" text="{.MI}Гулям{.nn}" />
+		<string id="7FJ3axqD" text="Длинный льняной меховой {.MI}плащ{.nn}" />
+		<string id="7T3mspgx" text="Нордский {.MI}ульфхеднар{.nn}" />
+		<string id="7bOfcEzK" text="Нордская роскошная {.FI}туника{.nn}" />
+		<string id="7v15a6aH" text="Вооружённый нордский {.MI}торговец{.nn}" />
+		<string id="838d1Yy8" text="Нордский опытный {.MI}ополченец-лучник{.nn}" />
+		<string id="8d8xLbBH" text="Северные {.MI}сапоги{.nnp} налётчика" />
+		<string id="96SmfRN8" text="{.MI}Наручи{.nnp} северного налётчика" />
+		<string id="96pj2wxH" text="Стургийский {.MI}воин{.nn}" />
+		<string id="9N0vTQnf" text="Полое затупленное {.NI}лезвие{.nn} нордского двуручного топора" />
+		<string id="9jhbWP5f" text="Нордские бронированные {.MI}наплечники{.nnp}" />
+		<string id="9uJYaxe3" text="Бронзовые {.MI}перчатки{.nnp} налётчика" />
+		<string id="AGHRra9l" text="Игольчатый {.MI}клинок{.nn}" />
+		<string id="B3ZFzXzU" text="{.NI}Лезвие{.nn} топора дренга" />
+		<string id="BTjW1WU1" text="Нордский {.MI}топор{.nn}" />
 		<string id="BvOMXDhA" text="Ремневые {.MI}ботфорты{.nnp}" />
-		<string id="cahNTPOW" text="Клёпаные {.MI}наручи{.nnp}" />
-		<string id="fKl3b9hT" text="Стургийский {.MI}матрос{.nn}" />
-		<string id="WzQVBWxL" text="Стургийский {.MI}разбойник{.nn}" />
-		<string id="Ow9dH1pP" text="Стургийский опытный {.MI}моряк{.nn}" />
-		<string id="VAl57s9g" text="Быстрый крылатый {.MI}топор{.nn}" />
-		<string id="DMciP5z3" text="Длинное тартановое {.NI}платье{.nn}" />
-		<string id="WXpFz7b2" text="{.MI}Наконечник{.nn} копья тэна" />
+		<string id="BylR8JFS" text="Нордский {.MI}юнец{.nn}" />
+		<string id="C9GW6OSF" text="Кожаный круглый {.MI}щит{.nn}" />
+		<string id="CHIq1ODq" text="{.MI}Топор{.nn} «Вороново крыло»" />
+		<string id="CHhdu8A3" text="Величественные {.MI}перчатки{.nnp}" />
+		<string id="Cb406ptd" text="Резной широкий {.MI}клинок{.nn}" />
+		<string id="CfO7eDsv" text="Стургийский {.MI}копейщик{.nn}" />
+		<string id="CfaJyPU2" text="Разбойничий {.MI}тесак{.nn}" />
+		<string id="Cn8OFyGZ" text="Травлёное широкое {.NI}лезвие{.nn} нордского боевого топора" />
 		<string id="DLGDKvtq" text="Широкий {.MI}наконечник{.nn} копья варга" />
-		<string id="bjUztSDg" text="Вландийский {.MI}моряк{.nn}" />
-		<string id="TDjXoPkn" text="Вландийский бывалый {.MI}мореход{.nn}" />
-		<string id="160aqzPm" text="Боевая {.FI}бритва{.nn}" />
-		<string id="peTfjzWZ" text="Шепчущие {.MI}стрелы{.nnp}" />
+		<string id="DMciP5z3" text="Длинное тартановое {.NI}платье{.nn}" />
+		<string id="DsV34PTX" text="Нордский меховой кольчужный {.MI}плащ{.nn}" />
+		<string id="EvQfwcbG" text="Большой {.MI}топор{.nn} баргаста" />
+		<string id="F8ZJza3k" text="{.MI}Щит{.nn} с верёвочной обвязкой" />
+		<string id="FL9QagP3" text="Узорчатый {.MI}клинок{.nn} с долом" />
+		<string id="GAJbg0Jx" text="Украшенная нордская {.FI}тарча{.nn}" />
+		<string id="GL5XuZUs" text="Бронзовые {.MI}сапоги{.nnp} налётчика" />
+		<string id="GdM7iaV9" text="Господский стальной {.MI}наголовник{.nn}" />
+		<string id="GriAus4K" text="Нордский {.MI}воин{.nn} с копьём" />
+		<string id="H8RwQB3u" text="{.MI}Наконечник{.nn} пики" />
+		<string id="HP1GzM8l" text="Зажигательный {.MI}горшок{.nn}" />
+		<string id="HZzitkbA" text="Полый нордский двуручный {.MI}топор{.nn}" />
+		<string id="HabHagNK" text="Усиленный {.MI}наплечник{.nn} налётчика" />
+		<string id="ID0mBGaU" text="Нордский {.MI}караванщик{.nn}" />
+		<string id="IK9aaUNt" text="Усиленное {.NI}навершие{.nn} «Голова волка»" />
+		<string id="ISCtxKub" text="{.MI}Шлем{.nn} морского налётчика с очками" />
+		<string id="IZqhY4Vs" text="Травлёное {.NI}лезвие{.nn} нордского боевого топора" />
+		<string id="IfjWyWjc" text="Имперский {.MI}пехотинец{.nn}" />
+		<string id="J5wylxDE" text="Украшенный листовидный {.MI}наконечник{.nn} копья" />
+		<string id="JOyMcqZu" text="Травлёное широкое {.NI}лезвие{.nn} нордского боевого топора с плетёным узором" />
+		<string id="JnwNuZb7" text="Нордский {.MI}хускарл{.nn}" />
+		<string id="KCYVy9fn" text="Северная {.FI}туника{.nn} с плетёным узором" />
+		<string id="Kjd9E3pB" text="Просверлённый короткий листовидный {.MI}наконечник{.nn}" />
+		<string id="KnhpjA7Y" text="{.MI}Коулман{.nn}" />
+		<string id="KzwOR85I" text="{.MI}Плащ{.nn} берсерка" />
+		<string id="L99NU0aG" text="Украшенный {.MI}клинок{.nn} с долом" />
+		<string id="LQ9X2e1A" text="Пиратский {.MI}тюрбан{.nn}" />
+		<string id="LUZRUXQg" text="Стальной {.MI}щит{.nn} с крестом" />
+		<string id="LYjawjAg" text="Разбойничий {.MI}шлем{.nn} с плюмажем" />
+		<string id="MNVp3MUF" text="Меховой {.MI}наплечник{.nn} налётчика" />
+		<string id="MVHawAEp" text="Скрытая {.FI}рука{.nn}" />
+		<string id="MX73rUwD" text="Северная величественная {.FI}корона{.nn}" />
 		<string id="Mof8L5Oa" text="150-фунтовая «Шепчущая {.FI}тень{.nn}»" />
-		<string id="VqSqC63z" text="Широкий и длинный {.MI}клинок{.nn} с долом" />
-		<string id="uLtCPJNV" text="Широкий {.MI}клинок{.nn} с долом" />
+		<string id="NRvuCvMN" text="Наёмный {.MI}меч{.nn}" />
+		<string id="NYvRbkz2" text="{.NI}Лезвие{.nn} нордского топорика" />
+		<string id="NeCHVy6I" text="Усиленные северные кольчужные {.MI}рукавицы{.nnp}" />
+		<string id="NuEuEucc" text="Нордский {.MI}воин{.nn} с топором" />
+		<string id="OLkncAaD" text="Закрытый кольчужный {.MI}шлем{.nn} с очками" />
+		<string id="Ow9dH1pP" text="Стургийский опытный {.MI}моряк{.nn}" />
+		<string id="PU2zIMu0" text="{.MI}Кукловод{.nn}" />
+		<string id="PhDBPZiJ" text="Обёрнутый {.MI}наконечник{.nn} копья" />
+		<string id="PrUts5OS" text="Северный величественный {.MI}наплечник{.nn}" />
+		<string id="PvUgOdjT" text="Имперский {.MI}матрос{.nn}" />
+		<string id="QELt180J" text="Позолоченный благородный {.MI}доспех{.nn}" />
+		<string id="QaAsyLju" text="Нордский {.MI}щитогрыз{.nn}" />
+		<string id="QfVe3IVw" text="Наёмный элитный {.MI}пращник{.nn}" />
+		<string id="RRbpc6fr" text="Нордский {.MI}соратник-щитоносец{.nn}" />
+		<string id="RkBmuucV" text="Старая льняная {.FI}туника{.nn}" />
+		<string id="S7jzipVJ" text="Позолоченный благородный {.MI}наплечник{.nn}" />
+		<string id="SHZ0P7Iu" text="Стёганый кожаный {.MI}плащ{.nn}" />
+		<string id="SbVmtrUw" text="{.MI}Шлем{.nn} с перьями" />
+		<string id="TDjXoPkn" text="Вландийский бывалый {.MI}мореход{.nn}" />
 		<string id="TbXnhpzO" text="Широкий нордский {.MI}клинок{.nn}" />
+		<string id="TnKWL9LG" text="Украшенный {.MI}наконечник{.nn} копья хускарла" />
+		<string id="TriXQK01" text="Длинный {.MI}клинок{.nn} с долом и рунами" />
+		<string id="TuzO0Irm" text="Травлёное {.NI}лезвие{.nn} нордского боевого топора с плетёным узором" />
+		<string id="TwjhbnlW" text="Имперский береговой {.MI}стражник{.nn}" />
+		<string id="UBHngTIf" text="Наёмный {.MI}булавоносец{.nn}" />
+		<string id="US2w3NXN" text="Позолоченные {.MI}сапоги{.nnp} налётчика" />
+		<string id="UTXYzNim" text="Длинный кожаный {.MI}жилет{.nn}" />
+		<string id="UYv5rwjs" text="Украшенный {.MI}наконечник{.nn} нордского дротика" />
+		<string id="UupDebkq" text="Длинный широкий {.MI}наконечник{.nn} копья" />
+		<string id="VAl57s9g" text="Быстрый крылатый {.MI}топор{.nn}" />
+		<string id="VPICWkKq" text="Старый гвардейский {.MI}шлем{.nn}" />
+		<string id="VRjBxWn7" text="Затупленное украшенное {.NI}лезвие{.nn} метательного топора" />
+		<string id="VYmHTbTY" text="{.MI}Шлем{.nn} военачальника поверх кольчуги" />
+		<string id="VpTQ5SyS" text="Нордский боевой {.MI}клык{.nn}" />
+		<string id="VqSqC63z" text="Широкий и длинный {.MI}клинок{.nn} с долом" />
+		<string id="W0JwCkUo" text="{.FI}Головка{.nn} разбойничьей булавы" />
+		<string id="W55gdLwu" text="Украшенное {.NI}лезвие{.nn} нордского метательного топора" />
+		<string id="WCM38v9X" text="Нордская {.FI}кольчуга{.nn}" />
+		<string id="WRrPvWQM" text="{.NI}Лезвие{.nn} нордского метательного топора" />
+		<string id="WTum1FXz" text="Нордское клетчатое {.NI}платье{.nn}" />
+		<string id="WXpFz7b2" text="{.MI}Наконечник{.nn} копья тэна" />
+		<string id="WzQVBWxL" text="Стургийский {.MI}разбойник{.nn}" />
+		<string id="XGytILlt" text="{.FI}Картечь{.nn}" />
+		<string id="XJhUOn1p" text="{.MI}Наконечник{.nn} нордского атгейра" />
+		<string id="XrsKuPT5" text="Чернёный {.MI}капюшон{.nn}" />
+		<string id="Y3RErkMr" text="Меховой {.MI}шлем{.nn} налётчика" />
+		<string id="YHmObN5p" text="Величественные железные {.MI}сапоги{.nnp}" />
+		<string id="ZAeQ7GpQ" text="Нордский тяжёлый кольчужный {.MI}доспех{.nn}" />
+		<string id="ZK0GXYCx" text="{.FI}Сестра{.nn} меча" />
+		<string id="ZeU1fvdz" text="{.FI}Стопка{.nn} картечи" />
+		<string id="ZiKyZMMa" text="Золочёный украшенный {.MI}наконечник{.nn} копья" />
+		<string id="ZkBvgzhD" text="Асерайский {.MI}бахрия{.nn}" />
+		<string id="ZqQFHHvy" text="Нордская гражданская {.FI}шапка{.nn}" />
+		<string id="a9Bn9JTY" text="{.NI}Лезвие{.nn} топора северян" />
+		<string id="aJsihC9U" text="Орнаментированный нордский {.MI}щит{.nn}" />
+		<string id="aVqWDZFA" text="{.MI}Наплечник{.nn} из змеиной кожи с плюмажем" />
+		<string id="aYLCCpS4" text="Северный закрытый {.MI}шлем{.nn} военачальника" />
+		<string id="aYTtdE1c" text="{.MI}Наконечник{.nn} копья хирдмана" />
+		<string id="acubGB3g" text="Вландский закалённый {.MI}арбалетчик{.nn}" />
+		<string id="ar8zJlCr" text="Северный {.MI}доспех{.nn} мастерской работы" />
+		<string id="aztogWWW" text="Нордский испытанный {.MI}воин{.nn}" />
+		<string id="bKmaQvWD" text="Затупленный узорчатый {.MI}клинок{.nn} с долом" />
+		<string id="beShQCIS" text="{.FI}Одежда{.nn} налётчика" />
+		<string id="beg6guIH" text="{.MI}Плащ{.nn} из волчьей шкуры" />
+		<string id="bjUztSDg" text="Вландийский {.MI}моряк{.nn}" />
+		<string id="bqy8Pvbx" text="Нордский опытный караванный {.MI}стражник{.nn}" />
+		<string id="brlJJW5I" text="Стургийский {.MI}солдат{.nn}" />
+		<string id="cQPMKMvU" text="Усиленный полый крылатый {.MI}топор{.nn}" />
+		<string id="cahNTPOW" text="Клёпаные {.MI}наручи{.nnp}" />
+		<string id="coP0JrWQ" text="Горящие {.MI}стрелы{.nnp}" />
+		<string id="csDsLYcZ" text="Золочёный украшенный затупленный {.MI}наконечник{.nn} копья" />
+		<string id="czT4WJp8" text="{.MI}Клинок{.nn} с долом и рунами" />
+		<string id="d7XgM4EZ" text="Нордский {.MI}берсерк{.nn}" />
+		<string id="dQgzH73b" text="Полый крылатый {.MI}топор{.nn}" />
+		<string id="dnOb7o37" text="{.NI}Лезвие{.nn} нордского боевого метательного топора" />
+		<string id="dpHDIwKz" text="Кожаный {.MI}гамбезон{.nn} моряка" />
+		<string id="eHyxxxoK" text="{.MI}Хауберк{.nn} хускарла" />
+		<string id="eba8yK7l" text="Асерайский опытный {.MI}моряк{.nn}" />
+		<string id="ecc2QSuK" text="Железное {.NI}облачение{.nn} налётчика" />
+		<string id="eeQ4v41t" text="Кожаные {.MI}наручи{.nnp}" />
+		<string id="ehACDRBk" text="Скрытая {.FI}пешка{.nn}" />
+		<string id="eigRPme7" text="Позолоченный {.MI}наплечник{.nn} налётчика" />
+		<string id="er4Ewoeo" text="Нордская шерстяная {.FI}туника{.nn}" />
+		<string id="fEsH0AYt" text="Короткий {.MI}клинок{.nn} с рунами" />
+		<string id="fKl3b9hT" text="Стургийский {.MI}матрос{.nn}" />
+		<string id="ghilmanUnit" text="{.MI}Гильман{.nn}" />
+		<string id="h7nGFImt" text="{.MI}Новобранец-лесник{.nn}" />
+		<string id="hJbTKM2u" text="Нордская {.FI}тарча{.nn}" />
+		<string id="hTvbIUt4" text="Нордский опытный {.MI}ополченец-копейщик{.nn}" />
+		<string id="hkzD5lfa" text="Полое {.NI}лезвие{.nn} нордского двуручного топора" />
+		<string id="iOaO8NGB" text="Нордский {.MI}дружинник{.nn}" />
+		<string id="iPI533Ht" text="Позолоченный {.MI}доспех{.nn} соратника-щитоносца" />
+		<string id="iVGuFOec" text="Северный {.MI}доспех{.nn} налётчика" />
+		<string id="ic68RdeQ" text="Зажигательная {.FI}картечь{.nn}" />
+		<string id="iln3nSsq" text="Нордский караванный {.MI}стражник{.nn}" />
+		<string id="iqaRjMhe" text="Чернёные {.MI}сапоги{.nnp}" />
+		<string id="j18j5Qq6" text="{.MI}Топор{.nn} берсерка" />
+		<string id="jYNggNHl" text="Позолоченный {.MI}доспех{.nn} налётчика" />
+		<string id="ja1tbR4y" text="Нордское {.NI}платье{.nn}" />
+		<string id="jw8fKXRu" text="Нордская гражданская {.FI}шапка{.nn} с меховой опушкой" />
+		<string id="k4kivaf5" text="Стальной {.MI}шлем{.nn} с наносником" />
+		<string id="kih9DwL4" text="Вландский {.MI}арбалетчик{.nn}" />
+		<string id="lCaC2QVC" text="Позолоченные {.MI}наручи{.nnp} налётчика" />
+		<string id="lDV710IL" text="{.MI}Шлем{.nn} корсара с перьями" />
+		<string id="lLPgEh9p" text="Нордский {.MI}мародёр{.nn}" />
+		<string id="lcbBLXAK" text="{.MI}Клинок{.nn} с рунами" />
+		<string id="lxU4pWsS" text="Баттанийский старший {.MI}застрельщик{.nn}" />
+		<string id="mI7igoBF" text="Нордский {.MI}избранник{.nn} небесных богов" />
+		<string id="mK55mQDs" text="Длинное грубое {.NI}древко{.nn} копья" />
 		<string id="mMEBkvP9" text="Изношенные кожаные {.MI}сапоги{.nnp}" />
+		<string id="mU5CY4bz" text="Закрытый {.MI}шлем{.nn} хускарла" />
+		<string id="mWbA1P4z" text="Бронзовое {.NI}облачение{.nn} налётчика" />
+		<string id="nMedC0tz" text="{.MI}Клинок{.nn} нордского палаша" />
+		<string id="na3nZMbV" text="Тканевый {.MI}доспех{.nn} корсара" />
+		<string id="ndlfsaz2" text="{.NI}Лезвие{.nn} топора баргаста" />
+		<string id="nnEMKAcy" text="{.MI}Шлем{.nn} пирата с тюрбаном" />
+		<string id="noqT1MMC" text="{.NI}Богато{.nn} украшенный стальной наголовник" />
+		<string id="nrKlORwM" text="Северный меховой {.MI}плащ{.nn}" />
+		<string id="oiTOCwhg" text="{.MI}Заряд{.nn} зажигательной картечи" />
+		<string id="otySLQx8" text="Нордский {.MI}ополченец-лучник{.nn}" />
+		<string id="ovmbmg29" text="Нордский {.MI}житель{.nn} деревни" />
+		<string id="peTfjzWZ" text="Шепчущие {.MI}стрелы{.nnp}" />
+		<string id="pzfbPbWW" text="{.MI}Валун{.nn}" />
+		<string id="q7VeZazL" text="Баттанийский {.MI}застрельщик{.nn}" />
+		<string id="qAWN552z" text="Кольчужные {.MI}рукавицы{.nnp} с кожаным усилением" />
+		<string id="qDGTBpcu" text="Украшенный {.MI}клинок{.nn} с долом" />
+		<string id="qX8OuuUy" text="Усиленный {.MI}топор{.nn} «Вороново крыло»" />
+		<string id="qc0P0b2r" text="{.MI}Шлем{.nn} с очками поверх кольчуги" />
+		<string id="qxDt8gnY" text="Усиленный нордский {.MI}топор{.nn}" />
+		<string id="riJbUCl9" text="Нордский вольный {.MI}лучник{.nn}" />
+		<string id="sRNDwJ85" text="Тканевый {.MI}доспех{.nn} пирата" />
+		<string id="sXNNaJ7Q" text="Нордский {.MI}воин{.nn}" />
+		<string id="stt6kTpR" text="{.MI}Шлем{.nn} берсерка" />
+		<string id="u5JubAYN" text="Украшенный затупленный {.MI}наконечник{.nn} копья" />
+		<string id="uLtCPJNV" text="Широкий {.MI}клинок{.nn} с долом" />
+		<string id="uPypJHlm" text="Элитный наёмный {.MI}булавоносец{.nn}" />
+		<string id="uZYqmBST" text="Чернёный {.MI}доспех{.nn}" />
+		<string id="ueasbGtd" text="{.MI}Ветеран-лесник{.nn}" />
+		<string id="uovbbXnc" text="Горящие {.MI}болты{.nnp}" />
+		<string id="vW0H5fEQ" text="Короткий широкий {.MI}клинок{.nn}" />
+		<string id="vWSJeIco" text="Нордский {.MI}охотник{.nn}" />
+		<string id="viDpmCPa" text="Северные ламеллярные {.MI}наплечники{.nnp}" />
+		<string id="vkz9JMS4" text="Усиленный меховой {.MI}шлем{.nn} налётчика" />
+		<string id="wZePzBYm" text="Батанийский {.MI}скипари{.nnp}" />
+		<string id="wf0A2FJ7" text="Затупленный {.MI}наконечник{.nn} атгейра" />
+		<string id="whxt5bTa" text="Украшенное {.NI}лезвие{.nn} одноручного топора" />
+		<string id="wk0uDFv7" text="Нордский широкий {.MI}клинок{.nn}" />
+		<string id="wkgxuGvo" text="Тяжёлый меховой {.MI}плащ{.nn} северного налётчика" />
+		<string id="wwlSmzZ6" text="Кожаный {.MI}доспех{.nn} пирата" />
+		<string id="wy0Qz6cC" text="Полое украшенное {.NI}лезвие{.nn} топора" />
+		<string id="xizb5Qyk" text="Травлёное затупленное {.NI}лезвие{.nn} нордского боевого топора" />
+		<string id="yhBagy1Y" text="{.MI}Лучник{.nn} Асераи" />
+		<string id="yrGYZsQ7" text="Имперский старший {.MI}пехотинец{.nn}" />
+		<string id="z9UlwqbJ" text="{.NI}Лезвие{.nn} нордского двуручного топора" />
+		<string id="zdzs2ulH" text="Нордский {.MI}ополченец-копейщик{.nn}" />
+		<string id="zk6V1L31" text="Шишковатый короткий {.MI}наконечник{.nn} копья" />
+		<string id="zwiRWTW9" text="Кольчужные {.MI}наплечники{.nnp}" />
 	</strings>
 </base>
